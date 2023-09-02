@@ -43,9 +43,12 @@ go run migration/main.go migrate-up
 
 ## Features
 
-### Country
-1. **GET ALL** `/api/country?type=getcountry&value=`
-2. **GET** `/api/country?type=getcountry&value=Adam`
-3. **GET** `/api/country?type=gettimezone&value=Asia/Jakarta`
-3. **POST** `/api/country`
+### GET ALL
+1. **GET** `/api/country?type=getcountry&value=`
+### GET By Name
+1. **GET** `/api/country?type=getcountry&value=Adam`
+### GET Time Zone by other API
+1. **GET** `/api/country?type=gettimezone&value=Asia/Jakarta`
+### Script Insert
+1. **POST** `/api/country`
 
